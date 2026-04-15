@@ -1,49 +1,12 @@
-# Opdrachten Zoo — opdracht-06-zoo-app
+# React + Vite
 
-**Folder:** `opdracht-06-zoo-app`
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-> ⚠️ Opdracht 11.1 maak je in **deze zelfde folder**. Geen nieuwe Vite-app aanmaken!
+Currently, two official plugins are available:
 
-**Setup:**
-```bash
-cd opdracht-06-zoo-app
-npm install
-npm install react-router-dom
-npm run dev
-```
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Download het bestand `animals.js` en de `images`-folder via Canvas en plaats ze in de juiste mappen.
+## Expanding the ESLint configuration
 
----
-
-## Opdracht 6 – Zoo Application
-
-Bouw een React-applicatie met informatie over dieren uit de dierentuin. Je hebt een homepage met een lijst van dieren en een detailpagina per dier.
-
-**Componenten:**
-- `HomePage.jsx` – lijst van dieren als cards
-- `Animal.jsx` – individuele card (afbeelding, naam, beschrijving)
-- `DetailPage.jsx` – details van één dier (naam, soort, leefgebied, beschrijving)
-
-**Functionaliteit:**
-- Klik op een card → navigeer naar de detailpagina van dat dier
-- Gebruik `useNavigate` om te navigeren en `useParams` om het id op te halen
-
-**Theorie:**
-- [React - Router](https://meesterjson.nl/cheat-sheet/pages/react/router.html)
-- [React - useNavigate & useParams](https://meesterjson.nl/cheat-sheet/pages/react/navigate-params.html)
-
-**Oplevering:** Commit & Push + link inleveren via Canvas
-
----
-
-## Opdracht 11.1 – Zoekfunctie Zoo
-
-**Folder:** `opdracht-06-zoo-app` ⚠️
-
-Voeg een zoekfunctie toe aan je Zoo-applicatie. Gebruikers kunnen een dier zoeken op naam.
-
-**Theorie:**
-- [React - Forms & Input](https://meesterjson.nl/cheat-sheet/pages/react/forms.html)
-
-**Oplevering:** Commit & Push + link inleveren via Canvas
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
