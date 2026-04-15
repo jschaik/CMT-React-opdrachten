@@ -1,12 +1,25 @@
-# React + Vite
+# Opdracht 09 – Tailwind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Setup:**
+```bash
+cd opdracht-09-tailwind
+npm install
+npm run dev
+```
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Opdracht 09 – Tailwind
 
-## Expanding the ESLint configuration
+Oefen met Tailwind CSS door een pagina na te maken die je in Canvas vindt. Je gebruikt uitsluitend Tailwind CSS, geen eigen CSS.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Opdracht 1** – Maak de pagina na die in Canvas staat. Gebruik alleen Tailwind-klassen.
+
+**Opdracht 2** – Voeg een dark theme toe. Als je laptop in dark mode staat, past de website automatisch mee.
+
+Lees hiervoor de Tailwind documentatie: [tailwindcss.com/docs/dark-mode](https://tailwindcss.com/docs/dark-mode)
+
+**Theorie:**
+- [React - Tailwind](https://meesterjson.nl/cheat-sheet/pages/react/tailwind.html)
+
+**Oplevering:** Commit & Push + link inleveren via Canvas + een screenshot van de light én dark theme

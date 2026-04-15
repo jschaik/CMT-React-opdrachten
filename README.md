@@ -1,6 +1,6 @@
-# React Opdrachten — Leerjaar 2 · Software Development
+# React Opdrachten — Leerjaar 2 
 
-Welkom bij de opdrachtenrepository voor React. Hier vind je alle opdrachten voor het tweede halfjaar van leerjaar 2.
+Welkom bij de opdrachtenrepository voor React. Hier vind je alle opdrachten van React voor leerjaar 2.
 
 ## Cheat Sheet
 

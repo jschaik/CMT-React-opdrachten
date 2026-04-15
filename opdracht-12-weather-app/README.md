@@ -1,12 +1,48 @@
-# React + Vite
+# Opdracht 12 – Weerapplicatie
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Setup:**
+```bash
+cd opdracht-12-weather-app
+npm install
+npm run dev
+```
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Opdracht 12 – Weerapplicatie
 
-## Expanding the ESLint configuration
+Bouw een weerapplicatie met de [OpenWeather API](https://openweathermap.org/api). Maak een gratis account aan om een eigen API-key te genereren.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**API-url:**
+```
+https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric
+```
+
+Waarbij `city` de useState is waar de stadsnaam in zit en `apiKey` je eigen variabele met je sleutel.
+
+**Eisen:**
+
+- Component `WeatherInfo` met:
+  - Stadsnaam + [weer-icon](https://openweathermap.org/weather-conditions)
+  - Temperatuur
+  - Gevoelstemperatuur
+  - Luchtvochtigheid
+  - Windsnelheid
+- In `App.jsx`:
+  - Fetch van de API-data
+  - Form met input en submit
+  - `WeatherInfo` component ingeladen
+- Styling met Tailwind CSS
+
+**Bonus:**
+- Pas de achtergrond aan op basis van het weer (bewolkt, zonnig, etc.)
+- Sla alle zoekopdrachten op en toon ze onder elkaar (net als de Twitter/Todo-opdracht)
+- Toon het weer voor de [komende 4 dagen](https://openweathermap.org/api/hourly-forecast)
+- Toggle card: klik op een stad om de weerinfo te tonen/verbergen
+
+**Theorie:**
+- [React - Data Fetching](https://meesterjson.nl/cheat-sheet/pages/react/fetching.html)
+- [React - Forms & Input](https://meesterjson.nl/cheat-sheet/pages/react/forms.html)
+- [React - Tailwind](https://meesterjson.nl/cheat-sheet/pages/react/tailwind.html)
+
+**Oplevering:** Commit & Push + link inleveren via Canvas + een screenshot van de applicatie

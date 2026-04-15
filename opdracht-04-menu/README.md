@@ -1,12 +1,55 @@
-# React + Vite
+# Opdracht 04 – Menu
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Setup:**
+```bash
+cd opdracht-04-menu
+npm install
+npm run dev
+```
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Opdracht 04 – Menu
 
-## Expanding the ESLint configuration
+Maak een menu-overzicht met gerechten. De data staat klaar in `data.js`.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> 💡 Deze opdracht werkt exact hetzelfde als de Books-opdracht! `MenuItem` = Book, `MenuList` = BookList. Alleen gebruik je nu data uit een apart bestand.
+
+**Stap 1 – Bestudeer de data**
+- Open `data.js` in je project
+- Elk object in de array heeft: `id`, `title`, `category`, `price`, `img` en `desc`
+- Bovenaan staat `export default menu` — dit betekent dat je het kunt importeren
+
+**Stap 2 – Maak MenuItem.jsx**
+- Maak in je `src`-folder een `components`-folder
+- Maak een nieuw bestand `MenuItem.jsx` (gebruik `sfc`)
+- Ontvang props: `{title, price, img, desc}`
+- Return een HTML-structuur met:
+  - Een `article` als container
+  - Een `img` voor de afbeelding
+  - Een `h2` voor de titel
+  - Een `h3` voor de prijs (voeg een €-teken toe!)
+  - Een `p` voor de beschrijving
+
+**Stap 3 – Maak MenuList.jsx**
+- Maak een nieuw bestand `MenuList.jsx` (gebruik `sfc`)
+- Importeer `menu` uit `data.js`:
+  ```js
+  import menu from '../data.js'
+  ```
+- Maak een `useState(menu)` voor `gerechten` met setter `setGerechten`
+- Importeer `MenuItem` bovenaan
+- Map over `gerechten` en geef alle props door aan `<MenuItem />` (inclusief `key={gerecht.id}`)
+- Wrap je map in een `<section>` met een className
+
+**Stap 4** – Laad `MenuList` in App.jsx
+
+**Stap 5** – Style met CSS (grid of flexbox)
+
+**Theorie:**
+- [React - Components](https://meesterjson.nl/cheat-sheet/pages/react/components.html)
+- [React - Props](https://meesterjson.nl/cheat-sheet/pages/react/props.html)
+- [React - useState](https://meesterjson.nl/cheat-sheet/pages/react/state.html)
+- [React - Lists & Keys](https://meesterjson.nl/cheat-sheet/pages/react/lists.html)
+
+**Oplevering:** Commit & Push + link inleveren via Canvas
