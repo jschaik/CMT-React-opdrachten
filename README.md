@@ -1,6 +1,6 @@
-# React Opdrachten — Leerjaar 2 
+# React Opdrachten — Leerjaar 2 · Software Development
 
-Welkom bij de opdrachtenrepository voor React. Hier vind je alle opdrachten van React voor leerjaar 2.
+Welkom bij de opdrachtenrepository voor React. Hier vind je alle opdrachten voor het tweede halfjaar van leerjaar 2.
 
 ## Cheat Sheet
 
@@ -37,7 +37,9 @@ Gebruik de cheat sheet als naslagwerk bij elke opdracht:
 | 1.3 | [Lees-teller per boek](./opdracht-01-books) | `opdracht-01-books` ⚠️ | useState, Events |
 | 1.4 | [Totaal aantal boeken](./opdracht-01-books) | `opdracht-01-books` ⚠️ | Props, Components |
 | 02 | [Clock](./opdracht-02-useEffect) | `opdracht-02-useEffect` | useEffect, useState |
+| 2.1 | [Tab Titel Updater](./opdracht-02-useEffect) | `opdracht-02-useEffect` ⚠️ | useEffect, document.title |
 | 03 | [WelcomeMessage](./opdracht-02-useEffect) | `opdracht-02-useEffect` ⚠️ | useEffect, useState |
+| 3.1 | [Dagquote](./opdracht-02-useEffect) | `opdracht-02-useEffect` ⚠️ | useEffect, useState |
 | 04 | [Menu](./opdracht-04-menu) | `opdracht-04-menu` | Components, Props, useState |
 | 05 | [Router](./opdracht-01-books) | `opdracht-01-books` ⚠️ | React Router |
 | 06 | [Zoo Application](./opdracht-06-zoo-app) | `opdracht-06-zoo-app` | Router, useNavigate, useParams |
