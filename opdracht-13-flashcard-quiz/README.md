@@ -1,12 +1,26 @@
-# React + Vite
+# Opdracht 13 – Flashcard Quiz
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Folder:** `opdracht-13-flashcard-quiz`
 
-Currently, two official plugins are available:
+**Setup:**
+```bash
+cd opdracht-13-flashcard-quiz
+npm install
+npm run dev
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+Maak een flashcard quiz over hoofdsteden. Voorkant = vraag, achterkant = antwoord. In totaal 20 flashcards.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Benodigdheden:**
+- Een JS-bestand met 20 objecten (elk met `question` en `answer`)
+- `FlashCard.jsx` – gebruikt conditionals om voorkant/achterkant te tonen bij klikken
+- `FlashCardList.jsx` – laadt alle FlashCard-componenten in
+- `App.jsx` – laadt FlashCardList en geeft de data door
+- Styling met Tailwind CSS
+
+**Theorie:**
+- [React - Conditionals](https://meesterjson.nl/cheat-sheet/pages/react/conditionals.html)
+
+**Oplevering:** Commit & Push + link inleveren via Canvas

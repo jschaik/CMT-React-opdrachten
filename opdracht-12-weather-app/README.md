@@ -1,12 +1,35 @@
-# React + Vite
+# Opdracht 12 – Weerapplicatie
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Folder:** `opdracht-12-weather-app`
 
-Currently, two official plugins are available:
+**Setup:**
+```bash
+cd opdracht-12-weather-app
+npm install
+npm run dev
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+Bouw een weerapplicatie met de [OpenWeather API](https://openweathermap.org/api). Maak een gratis account aan voor een API-key.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**API-url:**
+```
+https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric
+```
+
+**Eisen:**
+- Component `WeatherInfo` met: stadsnaam + weer-icon, temperatuur, gevoelstemperatuur, luchtvochtigheid, windsnelheid
+- In `App.jsx`: fetch, form met input/submit, WeatherInfo component
+- Styling met Tailwind CSS
+
+**Bonus:**
+- Pas de achtergrond aan op basis van het weer
+- Sla alle zoekopdrachten op en toon ze onder elkaar
+- Toon het weer voor de komende 4 dagen
+- Toggle card: klik op een stad om de weerinfo te tonen/verbergen
+
+**Theorie:**
+- [React - Data Fetching](https://meesterjson.nl/cheat-sheet/pages/react/fetching.html)
+
+**Oplevering:** Link + screenshot van de applicatie inleveren via Canvas

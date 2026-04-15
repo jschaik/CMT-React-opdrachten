@@ -1,12 +1,37 @@
-# React + Vite
+# Opdracht 4 – Menu
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Folder:** `opdracht-04-menu`
 
-Currently, two official plugins are available:
+**Setup:**
+```bash
+cd opdracht-04-menu
+npm install
+npm run dev
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+Maak een menu-overzicht met gerechten. De data staat klaar in `data.js`.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> ⚠️ Deze opdracht werkt exact hetzelfde als de Books-opdracht! `MenuItem` = Book, `MenuList` = BookList.
+
+**Stap 1** – Bestudeer `data.js`. Elk object heeft: `id`, `title`, `category`, `price`, `img`, `desc`
+
+**Stap 2** – Maak `MenuItem.jsx` met props `{title, price, img, desc}` en een HTML-structuur met `article`, `img`, `h2`, `h3` (met €-teken), `p`
+
+**Stap 3** – Maak `MenuList.jsx`:
+- Importeer `menu` uit `data.js`
+- Maak een `useState(menu)` voor `gerechten`
+- Map over `gerechten` en geef alle props door aan `<MenuItem />`
+- Wrap in een `<section>` met className
+
+**Stap 4** – Laad `MenuList` in App.jsx
+
+**Stap 5** – Style met CSS (grid/flexbox)
+
+**Theorie:**
+- [React - Components](https://meesterjson.nl/cheat-sheet/pages/react/components.html)
+- [React - Props](https://meesterjson.nl/cheat-sheet/pages/react/props.html)
+- [React - useState](https://meesterjson.nl/cheat-sheet/pages/react/state.html)
+
+**Oplevering:** Commit & Push + link inleveren via Canvas
