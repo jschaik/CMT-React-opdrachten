@@ -55,7 +55,8 @@ Gebruik de cheat sheet als naslagwerk bij elke opdracht:
 | 13.1 | [Favoriet systeem](./opdracht-01-books) | `opdracht-01-books` ⚠️ | Conditionals |
 | 13.2 | [Flip Card](./opdracht-01-books) | `opdracht-01-books` ⚠️ | Conditionals, CSS |
 | 14 | [Debuggen & Testen](./opdracht-14-debuggen-testen) | `opdracht-14-debuggen-testen` | Debugging |
-| 15 | [Old Town Barber App](./opdracht-15-old-town-barber-app) | `opdracht-15-old-town-barber-app` | localStorage, Forms, Tailwind |
+| 15 | [CodeCampus Dashboard](./opdracht-15-codecampus) | `opdracht-15-codecampus` | Debugging, User Stories, Features |
+| ⭐ | [Old Town Barber App (bonus)](./opdracht-bonus-old-town-barber-app) | `opdracht-bonus-old-town-barber-app` | localStorage, Forms, Tailwind |
 
 > ⚠️ = deze opdracht maak je in een **bestaande** folder, geen nieuwe Vite-app aanmaken!
 
