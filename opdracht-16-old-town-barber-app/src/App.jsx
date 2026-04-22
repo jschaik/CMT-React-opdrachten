@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-      <h1>Opdracht 15 - Barber Shop</h1>
+      <h1>Opdracht 16 - Barber Shop</h1>
     </>
   );
 }

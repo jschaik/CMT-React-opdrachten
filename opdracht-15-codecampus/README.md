@@ -1,15 +1,15 @@
-# Opdracht 14 – CodeCampus Dashboard (Debuggen)
+# Opdracht 15 – CodeCampus Dashboard (Eindopdracht)
 
 **Setup:**
 ```bash
-cd opdracht-14-codecampus
+cd opdracht-15-codecampus
 npm install
 npm run dev
 ```
 
 ---
 
-## Opdracht 14 – CodeCampus Dashboard
+## Opdracht 15 – CodeCampus Dashboard
 
 In deze opdracht ga je een bestaande React-applicatie debuggen: een dashboard met programmeercursussen. De applicatie bevat een aantal **bugs** die jij moet vinden en oplossen. Je bouwt dus niet vanaf nul — je werkt in een bestaande codebase, net zoals in de praktijk.
 
@@ -77,7 +77,6 @@ Zijn alle vinkjes groen? Dan kun je door naar de uitbreidingsopdracht: nieuwe us
 - `src/styles/` – CSS-bestanden
 
 **Theorie:**
-- [React - Debugging](https://meesterjson.nl/cheat-sheet/pages/react/debugging.html)
 - [React - Props & State](https://meesterjson.nl/cheat-sheet/pages/react/props.html)
 - [React - Lists & Keys](https://meesterjson.nl/cheat-sheet/pages/react/lists.html)
 - [React Cheat Sheet (overzicht)](https://meesterjson.nl/cheat-sheet/pages/react/index.html)
