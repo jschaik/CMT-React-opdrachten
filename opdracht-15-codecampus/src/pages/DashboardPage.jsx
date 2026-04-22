@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import Dashboard from '../components/Dashboard';
+import Hero from '../components/Hero';
 import { courses } from '../data/coursesData.js';
 
 function DashboardPage() {
@@ -27,7 +28,10 @@ function DashboardPage() {
       ) : error ? (
         <section className='error'>{error}</section>
       ) : (
-        <Dashboard courseData={courseData} />
+        <>
+          <Hero courseData={courseData} />
+          <Dashboard courseData={courseData} />
+        </>
       )}
     </>
   );
