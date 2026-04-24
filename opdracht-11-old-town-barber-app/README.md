@@ -1,15 +1,15 @@
-# Opdracht 16 – Old Town Barber App
+# Opdracht 11 – Old Town Barber App
 
 **Setup:**
 ```bash
-cd opdracht-16-old-town-barber-app
+cd opdracht-11-old-town-barber-app
 npm install
 npm run dev
 ```
 
 ---
 
-## Opdracht 16 – Old Town Barber App
+## Opdracht 11 – Old Town Barber App
 
 Bouw een barbier boekingssysteem. Alles wordt opgeslagen in `localStorage` zodat de data bewaard blijft na het sluiten van de browser.
 

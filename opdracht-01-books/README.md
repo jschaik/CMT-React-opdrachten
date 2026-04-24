@@ -1,6 +1,6 @@
 # Opdracht 01 – Books
 
-> ⚠️ Opdrachten 1.1, 1.2, 1.3, 1.4, 05, 11, 11.2, 13.1 en 13.2 maak je ook in **deze folder**.
+> ⚠️ Opdrachten 1.1, 1.2, 1.3, 1.4, 05, 08, 8.1 en 9.1 maak je ook in **deze folder**.
 
 **Setup:**
 ```bash
@@ -143,7 +143,7 @@ Doel: maak een apart component dat toont hoeveel boeken er in totaal zijn.
 
 ---
 
-## Opdracht 11 – Zoekfunctie Books
+## Opdracht 08 – Zoekfunctie Books
 
 Voeg een zoekfunctie toe aan je Books-applicatie. Gebruikers kunnen een boek zoeken op titel via een zoekbalk. Gebruik de PDF-uitleg die in Canvas staat.
 
@@ -154,7 +154,7 @@ Voeg een zoekfunctie toe aan je Books-applicatie. Gebruikers kunnen een boek zoe
 
 ---
 
-## Opdracht 11.2 – Filterfunctie Boekcategorieën
+## Opdracht 8.1 – Filterfunctie Boekcategorieën
 
 Voeg een filterfunctie toe waarmee gebruikers boeken kunnen filteren op categorie via een dropdown.
 
@@ -180,7 +180,7 @@ Voeg een filterfunctie toe waarmee gebruikers boeken kunnen filteren op categori
 
 ---
 
-## Opdracht 13.1 – Favoriet systeem
+## Opdracht 9.1 – Favoriet systeem
 
 Voeg een favoriet-hartje toe aan elk boek. Wit hartje = niet favoriet, rood hartje = favoriet. Klikken toggled de status. Toon de tekst "Toegevoegd aan favorieten" als het boek favoriet is.
 
@@ -198,83 +198,6 @@ Voeg een favoriet-hartje toe aan elk boek. Wit hartje = niet favoriet, rood hart
 ```jsx
 {liked && <p className="favorited-text">Toegevoegd aan favorieten</p>}
 ```
-
-**Theorie:**
-- [React - Conditionals](https://meesterjson.nl/cheat-sheet/pages/react/conditionals.html)
-
-**Oplevering:** Commit & Push + link inleveren via Canvas
-
----
-
-## Opdracht 13.2 – Flip Card
-
-Voeg een flip card effect toe. Klik op een boek → de kaart draait om en toont details op de achterkant. Klik nogmaals → terug naar de voorkant.
-
-**Stap 1** – Breid je data uit met `description`, `year` en `pages` per boek
-
-**Stap 2** – Geef de extra props door in `BookList.jsx` en ontvang ze in `Book.jsx`
-
-**Stap 3** – Maak state `isFlipped` met beginwaarde `false`
-
-**Stap 4** – Maak functie `handleFlip` die `setIsFlipped(!isFlipped)` aanroept
-
-**Stap 5** – Pas je JSX-structuur aan:
-```jsx
-<article
-  className={`book ${isFlipped ? 'flipped' : ''}`}
-  onClick={handleFlip}
->
-  <div className="book-inner">
-    <div className="book-front">
-      {/* voorkant: image, title, author, category, favoriet */}
-    </div>
-    <div className="book-back">
-      {/* achterkant: jaar, pagina's, beschrijving */}
-    </div>
-  </div>
-</article>
-```
-
-**Stap 6** – Voeg de volgende CSS toe voor het flip-effect:
-```css
-.book {
-  perspective: 1000px;
-  cursor: pointer;
-  height: 550px;
-}
-
-.book-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-}
-
-.book.flipped .book-inner {
-  transform: rotateY(180deg);
-}
-
-.book-front,
-.book-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  background-color: white;
-  border-radius: 10px;
-  padding: 20px;
-}
-
-.book-back {
-  transform: rotateY(180deg);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-```
-
-**Stap 7** – Voeg `e.stopPropagation()` toe als eerste regel van `toggleLike`, zodat klikken op het hartje de card niet ook laat flippen
 
 **Theorie:**
 - [React - Conditionals](https://meesterjson.nl/cheat-sheet/pages/react/conditionals.html)

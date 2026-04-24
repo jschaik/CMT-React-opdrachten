@@ -1,6 +1,4 @@
-# Opdracht 06 & 11.1 – Zoo Application
-
-> ⚠️ Opdracht 11.1 maak je ook in **deze folder**. Geen nieuwe Vite-app aanmaken!
+# Opdracht 06 – Zoo Application
 
 **Setup:**
 ```bash
@@ -47,16 +45,5 @@ Bouw een React-applicatie met informatie over dieren uit de dierentuin. Je hebt 
 **Theorie:**
 - [React - Router](https://meesterjson.nl/cheat-sheet/pages/react/router.html)
 - [React - useNavigate & useParams](https://meesterjson.nl/cheat-sheet/pages/react/navigate-params.html)
-
-**Oplevering:** Commit & Push + link inleveren via Canvas
-
----
-
-## Opdracht 11.1 – Zoekfunctie Zoo
-
-Voeg een zoekfunctie toe aan je Zoo-applicatie. Gebruikers kunnen een dier zoeken op naam via een zoekbalk.
-
-**Theorie:**
-- [React - Forms & Input](https://meesterjson.nl/cheat-sheet/pages/react/forms.html)
 
 **Oplevering:** Commit & Push + link inleveren via Canvas

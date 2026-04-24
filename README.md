@@ -44,19 +44,12 @@ Gebruik de cheat sheet als naslagwerk bij elke opdracht:
 | 05 | [Router](./opdracht-01-books) | `opdracht-01-books` ⚠️ | React Router |
 | 06 | [Zoo Application](./opdracht-06-zoo-app) | `opdracht-06-zoo-app` | Router, useNavigate, useParams |
 | 07 | [Twitter](./opdracht-07-twitter) | `opdracht-07-twitter` | Forms, useState, Props |
-| 08 | [Todo](./opdracht-08-todo) | `opdracht-08-todo` | Denken in Code, Forms, useState |
-| 09 | [Tailwind](./opdracht-09-tailwind) | `opdracht-09-tailwind` | Tailwind CSS |
-| 10 | [Todo Styling](./opdracht-08-todo) | `opdracht-08-todo` ⚠️ | Tailwind CSS |
-| 11 | [Zoekfunctie Books](./opdracht-01-books) | `opdracht-01-books` ⚠️ | Forms & Input |
-| 11.1 | [Zoekfunctie Zoo](./opdracht-06-zoo-app) | `opdracht-06-zoo-app` ⚠️ | Forms & Input |
-| 11.2 | [Filterfunctie Boeken](./opdracht-01-books) | `opdracht-01-books` ⚠️ | Forms & Input |
-| 12 | [Weerapplicatie](./opdracht-12-weather-app) | `opdracht-12-weather-app` | Data Fetching, Tailwind |
-| 13 | [Flashcard Quiz](./opdracht-13-flashcard-quiz) | `opdracht-13-flashcard-quiz` | Conditionals, Tailwind |
-| 13.1 | [Favoriet systeem](./opdracht-01-books) | `opdracht-01-books` ⚠️ | Conditionals |
-| 13.2 | [Flip Card](./opdracht-01-books) | `opdracht-01-books` ⚠️ | Conditionals, CSS |
-| 14 | [Secret Diary](./opdracht-14-secret-diary) | `opdracht-14-secret-diary` | Context API, Auth, Protected Routes, localStorage |
-| 15 | [CodeCampus Dashboard (Eindopdracht)](./opdracht-15-codecampus) | `opdracht-15-codecampus` | Debugging, User Stories, Features |
-| 16 | [Old Town Barber App](./opdracht-16-old-town-barber-app) | `opdracht-16-old-town-barber-app` | localStorage, Forms, Tailwind |
+| 08 | [Zoekfunctie Books](./opdracht-01-books) | `opdracht-01-books` ⚠️ | Forms & Input |
+| 8.1 | [Filterfunctie Boeken](./opdracht-01-books) | `opdracht-01-books` ⚠️ | Forms & Input |
+| 09 | [Flashcard Quiz](./opdracht-09-flashcard-quiz) | `opdracht-09-flashcard-quiz` | Conditionals |
+| 9.1 | [Favoriet systeem](./opdracht-01-books) | `opdracht-01-books` ⚠️ | Conditionals |
+| 10 | [CodeCampus Dashboard (Eindopdracht)](./opdracht-10-codecampus) | `opdracht-10-codecampus` | Debugging, User Stories, Features |
+| 11 | [Old Town Barber App (Bonus)](./opdracht-11-old-town-barber-app) | `opdracht-11-old-town-barber-app` | localStorage, Forms |
 
 > ⚠️ = deze opdracht maak je in een **bestaande** folder, geen nieuwe Vite-app aanmaken!
 

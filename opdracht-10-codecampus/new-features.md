@@ -77,28 +77,7 @@ Na het oplossen van alle bugs kies je uit onderstaande user stories om nieuwe fe
 - Views worden opgeslagen in localStorage met timestamp
 - Badge "🔥 Trending" voor cursussen met >X views deze week
 
-
-### User Story 7: Gebruikersauthenticatie (Login/Register)
-
-**Als gebruiker** wil ik **een account kunnen aanmaken en inloggen** zodat ik **een persoonlijke ervaring heb en mijn data wordt opgeslagen**.
-
-**Acceptatiecriteria:**
-
-- Register pagina met form (email, wachtwoord, wachtwoord bevestigen, naam)
-- Login pagina met form (email, wachtwoord)
-- Basis validatie:
-  - Email moet geldig formaat hebben
-  - Wachtwoord minimaal 6 karakters
-  - Wachtwoorden moeten matchen bij registratie
-- Error messages tonen bij ongeldige invoer
-- Bij succesvolle registratie wordt gebruiker automatisch ingelogd
-- Bij succesvolle login wordt gebruiker doorgestuurd naar dashboard
-- Logout functionaliteit (knop in header)
-- Gebruikersnaam tonen in header wanneer ingelogd
-- Gebruikersdata opslaan in localStorage (email, naam, id)
-- Ingelogde status blijft bewaard na page refresh
-
-### User Story 8: Favorieten & Wishlist systeem
+### User Story 7: Favorieten & Wishlist systeem
 
 **Als gebruiker** wil ik **cursussen kunnen markeren als favoriet en toevoegen aan een wishlist** zodat ik **een persoonlijke collectie kan maken van cursussen die me interesseren**.
 

@@ -1,15 +1,15 @@
-# Opdracht 13 – Flashcard Quiz
+# Opdracht 09 – Flashcard Quiz
 
 **Setup:**
 ```bash
-cd opdracht-13-flashcard-quiz
+cd opdracht-09-flashcard-quiz
 npm install
 npm run dev
 ```
 
 ---
 
-## Opdracht 13 – Flashcard Quiz
+## Opdracht 09 – Flashcard Quiz
 
 Maak een flashcard quiz over hoofdsteden. Op de voorkant van een kaartje staat een vraag, op de achterkant het antwoord. In totaal maak je 20 flashcards.
 
