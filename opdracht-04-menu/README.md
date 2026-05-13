@@ -46,6 +46,10 @@ Maak een menu-overzicht met gerechten. De data staat klaar in `data.js`.
 
 **Stap 5** – Style met CSS (grid of flexbox)
 
+## Voorbeeld van het eindresultaat
+
+![Voorbeeld van de overzichtspagina](./public/images/eindresultaat.png)
+
 
 ---
 
