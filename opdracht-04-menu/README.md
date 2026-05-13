@@ -18,7 +18,7 @@ Maak een menu-overzicht met gerechten. De data staat klaar in `data.js`.
 **Stap 1 – Bestudeer de data**
 - Open `data.js` in je project
 - Elk object in de array heeft: `id`, `title`, `category`, `price`, `img` en `desc`
-- Bovenaan staat `export default menu` — dit betekent dat je het kunt importeren
+- Onderaan staat `export default menu` — dit betekent dat je het kunt importeren in een ander bestand.
 
 **Stap 2 – Maak MenuItem.jsx**
 - Maak in je `src`-folder een `components`-folder
@@ -37,14 +37,17 @@ Maak een menu-overzicht met gerechten. De data staat klaar in `data.js`.
   ```js
   import menu from '../data.js'
   ```
-- Maak een `useState(menu)` voor `gerechten` met setter `setGerechten`
+- Maak een `useState(menu)` voor `dishes` met setter `setDishes`
 - Importeer `MenuItem` bovenaan
-- Map over `gerechten` en geef alle props door aan `<MenuItem />` (inclusief `key={gerecht.id}`)
+- Map over `dishes` en geef alle props door aan `<MenuItem />` (inclusief `key={dish.id}`)
 - Wrap je map in een `<section>` met een className
 
 **Stap 4** – Laad `MenuList` in App.jsx
 
 **Stap 5** – Style met CSS (grid of flexbox)
+
+
+---
 
 **Theorie:**
 - [React - Components](https://meesterjson.nl/cheat-sheet/pages/react/components.html)

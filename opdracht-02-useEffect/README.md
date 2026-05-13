@@ -112,9 +112,9 @@ Maak een component `WelcomeMessage` dat afhankelijk van het tijdstip "Goedemorge
 
 ## Opdracht 3.1 – Dagquote
 
-Maak een component `DagQuote` dat elke dag een andere motiverende quote toont op basis van de dag van de week.
+Maak een component `DayQuote` dat elke dag een andere motiverende quote toont op basis van de dag van de week.
 
-**Stap 1** – Maak een nieuw component `DagQuote.jsx`
+**Stap 1** – Maak een nieuw component `DayQuote.jsx`
 
 **Stap 2** – Maak een array met 7 quotes, één voor elke dag van de week:
 ```js
@@ -138,7 +138,7 @@ const quotes = [
 
 **Stap 5** – Toon de quote in de component
 
-**Stap 6** – Laad `DagQuote` in App.jsx
+**Stap 6** – Laad `DayQuote` in App.jsx
 
 > 💡 Tip: wil je testen of het werkt voor andere dagen? Verander de index tijdelijk handmatig naar een getal van 0 t/m 6.
 

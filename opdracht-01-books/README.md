@@ -34,7 +34,7 @@ Zorg dat de styling lijkt op het voorbeeld in Canvas.
 ## Opdracht 1.1 – Uitbreiding Books
 
 **Stap 1**
-- Maak een component `Header` met een navbar: 'home', 'contact' en 'about us' met normaal HTML (nog geen `<a>`-tag)
+- Maak een component `Header` met een navbar: 'home', 'contact' en 'over ons' met normaal HTML (nog geen `<a>`-tag)
 - Style je Header-component met CSS
 - Laad het in App.jsx boven je BookList
 
@@ -72,15 +72,15 @@ Doel: voeg een knop toe aan elk boek die bijhoudt hoe vaak je het boek "gelezen"
 
 **Stap 1 – State aanmaken in Book.jsx**
 - Importeer `useState` van React
-- Maak een state `aantalKeerGelezen` met setter `setAantalKeerGelezen` en beginwaarde `0`
+- Maak een state `timesRead` met setter `setTimesRead` en beginwaarde `0`
 
 **Stap 2 – Functie die de teller verhoogt**
-- Maak een functie `verhoogTeller`
+- Maak een functie `incrementReadCount`
 - Roep daarin de setter aan zodat de nieuwe waarde de oude waarde + 1 is
 
 **Stap 3 – Button toevoegen**
 - Voeg in je return een button toe
-- Koppel een `onClick` die `verhoogTeller` aanroept
+- Koppel een `onClick` die `incrementReadCount` aanroept
 - Tekst op de button: `"Keer gelezen: "` + de waarde van je state
 
 **Stap 4 – Testen**
@@ -101,13 +101,13 @@ Doel: maak een apart component dat toont hoeveel boeken er in totaal zijn.
 
 **Stap 1** – Maak `BookCounter.jsx` in je components folder (gebruik `sfc`)
 
-**Stap 2** – Ontvang prop `aantal` via `{aantal}` tussen de haakjes van je functie
+**Stap 2** – Ontvang prop `count` via `{count}` tussen de haakjes van je functie
 
-**Stap 3** – Return een `<h2>` met tekst: `"Totaal aantal boeken in de lijst: "` + `{aantal}`
+**Stap 3** – Return een `<h2>` met tekst: `"Totaal aantal boeken in de lijst: "` + `{count}`
 
 **Stap 4** – Importeer BookCounter in BookList.jsx
 
-**Stap 5** – Voeg BookCounter toe boven je `books.map` in de return van BookList en geef `aantal={books.length}` mee
+**Stap 5** – Voeg BookCounter toe boven je `books.map` in de return van BookList en geef `count={books.length}` mee
 
 **Stap 6 – Testen**
 - Bovenaan de pagina moet staan: `"Totaal aantal boeken in de lijst: 3"`
@@ -123,14 +123,14 @@ Doel: maak een apart component dat toont hoeveel boeken er in totaal zijn.
 
 ## Opdracht 05 – Router
 
-**Stap 1** – Maak in `src` een map `Pages` met de volgende bestanden:
+**Stap 1** – Maak in `src` een map `pages` met de volgende bestanden:
 - `About.jsx`
 - `Contact.jsx`
 - `Home.jsx`
 - `Navigation.jsx`
 - `NoPage.jsx`
 
-**Stap 2** – Zet in elke pagina een basis component klaar met `sfc` en een titel. `NoPage` krijgt "404, page not found".
+**Stap 2** – Zet in elke pagina een basis component klaar met `sfc` en een titel. `NoPage` krijgt "404, pagina niet gevonden".
 
 **Stap 3** – Verplaats de inhoud van je App.jsx return naar `Home.jsx` (dit wordt je indexpagina)
 
