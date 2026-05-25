@@ -208,16 +208,13 @@ Voeg een favoriet-hartje toe aan elk boek. Wit hartje = niet favoriet, rood hart
 
 **Stap 1** – Maak in `Book.jsx` een state `liked` met beginwaarde `false`
 
-**Stap 2** – Maak functie `toggleLike` die `setLiked(!liked)` aanroept
+**Stap 2** – Maak een functie `toggleLike` die de waarde van `liked` omdraait. Gebruik hiervoor `setLiked(...)` — wat geef je mee om de waarde te wisselen?
 
 **Stap 3** – Voeg een `<div className="favorite-section">` toe met een button:
-- `onClick={toggleLike}`
-- Inhoud: `liked ? '❤️' : '🤍'` (ternary operator)
+- Koppel een `onClick` handler aan de button die `toggleLike` aanroept
+- De inhoud van de button toont een hartje op basis van de `liked` state — gebruik een ternary operator om te kiezen tussen `❤️` en `🤍`
 
-**Stap 4** – Voeg conditionele tekst toe onder de button:
-```jsx
-{liked && <p className="favorited-text">Toegevoegd aan favorieten</p>}
-```
+**Stap 4** – Voeg conditionele tekst toe onder de button. De tekst "Toegevoegd aan favorieten" mag alleen zichtbaar zijn als `liked` true is. Gebruik hiervoor de `&&` operator in JSX.
 
 **Theorie:**
 - [React - Conditionals](https://meesterjson.nl/cheat-sheet/pages/react/conditionals.html)
