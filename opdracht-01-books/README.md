@@ -184,17 +184,15 @@ Voeg een filterfunctie toe waarmee gebruikers boeken kunnen filteren op categori
 
 Voeg een favoriet-hartje toe aan elk boek. Wit hartje = niet favoriet, rood hartje = favoriet. Klikken toggled de status. Toon de tekst "Toegevoegd aan favorieten" als het boek favoriet is.
 
-**Stap 1** – Importeer `useState` in `Book.jsx`
+**Stap 1** – Maak in `Book.jsx` een state `liked` met beginwaarde `false`
 
-**Stap 2** – Maak state `liked` met beginwaarde `false`
+**Stap 2** – Maak functie `toggleLike` die `setLiked(!liked)` aanroept
 
-**Stap 3** – Maak functie `toggleLike` die `setLiked(!liked)` aanroept
-
-**Stap 4** – Voeg een `<div className="favorite-section">` toe met een button:
+**Stap 3** – Voeg een `<div className="favorite-section">` toe met een button:
 - `onClick={toggleLike}`
 - Inhoud: `liked ? '❤️' : '🤍'` (ternary operator)
 
-**Stap 5** – Voeg conditionele tekst toe onder de button:
+**Stap 4** – Voeg conditionele tekst toe onder de button:
 ```jsx
 {liked && <p className="favorited-text">Toegevoegd aan favorieten</p>}
 ```

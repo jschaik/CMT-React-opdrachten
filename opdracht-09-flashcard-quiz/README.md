@@ -23,7 +23,7 @@ Maak een flashcard quiz over hoofdsteden. Op de voorkant van een kaartje staat e
   - Laadt alle `FlashCard`-componenten in
 - `App.jsx`:
   - Laadt `FlashCardList` in en geeft de data door
-- Styling met Tailwind CSS passend bij het thema van de quiz
+- Styling passend bij het thema van de quiz
 
 **Theorie:**
 - [React - Conditionals](https://meesterjson.nl/cheat-sheet/pages/react/conditionals.html)
