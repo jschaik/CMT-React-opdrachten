@@ -147,8 +147,30 @@ Doel: maak een apart component dat toont hoeveel boeken er in totaal zijn.
 
 Voeg een zoekfunctie toe aan je Books-applicatie. Gebruikers kunnen een boek zoeken op titel via een zoekbalk. Gebruik de PDF-uitleg die in Canvas staat.
 
+**Stap 1 – Zoekfunctie in BookList**
+
+> 💡 Tip: je kunt de PDF-uitleg in Canvas gebruiken als je er niet uitkomt.
+
+- Maak een `useState` voor `searchInput` met beginwaarde `''`
+- Maak een functie `searchHandler` die:
+  - De invoer uit `e.target.value` haalt
+  - `searchInput` updatet
+  - De boekenlijst filtert op titel met `.filter()` en `.toLowerCase()`
+- Voeg een `<input>` toe met `type="text"`, een placeholder, `onChange={searchHandler}` en `value={searchInput}`
+- Test of de lijst zich aanpast terwijl je typt
+
+**Stap 2 – Zoekbalk omzetten naar een component**
+- Maak een nieuw bestand `SearchBar.jsx` in je `components`-folder
+- Verplaats de `<input>` (en de omliggende `<div>`) naar dit component
+- Geef `value` en `onChange` mee als props vanuit `BookList`
+- Vervang de `<input>` in `BookList` door je SearchBar component
+- Test of de zoekfunctie nog steeds werkt
+
+> 💡 Let op: de state en de `searchHandler` blijven in `BookList` staan. `SearchBar` is alleen verantwoordelijk voor de weergave.
+
 **Theorie:**
 - [React - Forms & Input](https://meesterjson.nl/cheat-sheet/pages/react/forms.html)
+- [React - Props](https://meesterjson.nl/cheat-sheet/pages/react/props.html)
 
 **Oplevering:** Commit & Push + link inleveren via Canvas
 
