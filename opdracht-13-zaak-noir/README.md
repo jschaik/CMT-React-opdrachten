@@ -1,15 +1,17 @@
-# Opdracht 12 – Zaak Noir
+# Opdracht 13 – Zaak Noir (Keuzeopdracht)
+
+> 📌 **Keuzeopdracht:** je mag kiezen tussen deze opdracht of Opdracht 12 (Old Town Barber App). Kies er één af, de ander mag je als uitbreiding doen.
 
 **Setup:**
 ```bash
-cd opdracht-12-zaak-noir
+cd opdracht-13-zaak-noir
 npm install
 npm run dev
 ```
 
 ---
 
-## Opdracht 12 – Zaak Noir
+## Opdracht 13 – Zaak Noir
 
 > *Het is een regenachtige avond in de stad. Op je bureau ligt een stapel vochtige dossiers, de asbak is vol, en de hoofdcommissaris wil morgenochtend resultaten zien. Jij bent de rechercheur. De zaken wachten.*
 

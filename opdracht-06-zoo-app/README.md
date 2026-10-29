@@ -5,7 +5,6 @@
 ```bash
 cd opdracht-06-zoo-app
 npm install
-npm install react-router-dom
 npm run dev
 ```
 
@@ -40,7 +39,7 @@ Bouw een React-applicatie met informatie over dieren uit de dierentuin. Je hebt 
 
 **Stap 2 – Stel de router in (App.jsx)**
 
-- Importeer `BrowserRouter`, `Routes` en `Route` uit `react-router-dom`
+- Importeer `BrowserRouter`, `Routes` en `Route` uit `react-router`
 - Maak routes aan voor de homepage (`/`) en de detailpagina (`/animal/:id`)
 
 **Stap 3 – Animal.jsx**

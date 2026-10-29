@@ -1,15 +1,15 @@
-# Opdracht 10 – CodeCampus Dashboard (Eindopdracht)
+# Opdracht 11 – CodeCampus Dashboard (Eindopdracht)
 
 **Setup:**
 ```bash
-cd opdracht-10-codecampus
+cd opdracht-11-codecampus
 npm install
 npm run dev
 ```
 
 ---
 
-## Opdracht 10 – CodeCampus Dashboard
+## Opdracht 11 – CodeCampus Dashboard
 
 In deze opdracht ga je een bestaande React-applicatie debuggen: een dashboard met programmeercursussen. De applicatie bevat een aantal **bugs** die jij moet vinden en oplossen. Je bouwt dus niet vanaf nul — je werkt in een bestaande codebase, net zoals in de praktijk.
 

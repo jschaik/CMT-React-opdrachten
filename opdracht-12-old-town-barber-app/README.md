@@ -1,15 +1,17 @@
-# Opdracht 11 – Old Town Barber App
+# Opdracht 12 – Old Town Barber App (Keuzeopdracht)
+
+> 📌 **Keuzeopdracht:** je mag kiezen tussen deze opdracht of Opdracht 13 (Zaak Noir). Kies er één af, de ander mag je als uitbreiding doen.
 
 **Setup:**
 ```bash
-cd opdracht-11-old-town-barber-app
+cd opdracht-12-old-town-barber-app
 npm install
 npm run dev
 ```
 
 ---
 
-## Opdracht 11 – Old Town Barber App
+## Opdracht 12 – Old Town Barber App
 
 Bouw een barbier boekingssysteem. Alles wordt opgeslagen in `localStorage` zodat de data bewaard blijft na het sluiten van de browser.
 

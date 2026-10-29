@@ -48,11 +48,13 @@ Gebruik de cheat sheet als naslagwerk bij elke opdracht:
 | 8.1 | [Filterfunctie Boeken](./opdracht-01-books) | `opdracht-01-books` ⚠️ | Forms & Input |
 | 09 | [Flashcard Quiz](./opdracht-09-flashcard-quiz) | `opdracht-09-flashcard-quiz` | Conditionals |
 | 9.1 | [Favoriet systeem](./opdracht-01-books) | `opdracht-01-books` ⚠️ | Conditionals |
-| 10 | [CodeCampus Dashboard](./opdracht-10-codecampus) | `opdracht-10-codecampus` | Debugging, User Stories, Features |
-| 11 | [Old Town Barber App](./opdracht-11-old-town-barber-app) | `opdracht-11-old-town-barber-app` | localStorage, Forms |
-| 12 | [Zaak Noir](./opdracht-12-zaak-noir) | `opdracht-12-zaak-noir` | useEffect, fetch, JSON |
+| 10 | [Mijn Kluis (Authentication)](./opdracht-10-authentication) | `opdracht-10-authentication` | Context API, Protected Routes, Login/Register |
+| 11 | [CodeCampus Dashboard (Eindopdracht)](./opdracht-11-codecampus) | `opdracht-11-codecampus` | Debugging, User Stories, Features |
+| 12 | [Old Town Barber App (Keuzeopdracht)](./opdracht-12-old-town-barber-app) | `opdracht-12-old-town-barber-app` 📌 | localStorage, Forms |
+| 13 | [Zaak Noir (Keuzeopdracht)](./opdracht-13-zaak-noir) | `opdracht-13-zaak-noir` 📌 | useEffect, fetch, JSON |
 
 > ⚠️ = deze opdracht maak je in een **bestaande** folder, geen nieuwe Vite-app aanmaken!
+> 📌 = **Keuzeopdracht:** kies één van opdracht 12 of 13. De ander mag je als uitbreiding doen.
 
 ---
 
