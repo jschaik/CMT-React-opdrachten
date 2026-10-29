@@ -48,8 +48,9 @@ Gebruik de cheat sheet als naslagwerk bij elke opdracht:
 | 8.1 | [Filterfunctie Boeken](./opdracht-01-books) | `opdracht-01-books` ⚠️ | Forms & Input |
 | 09 | [Flashcard Quiz](./opdracht-09-flashcard-quiz) | `opdracht-09-flashcard-quiz` | Conditionals |
 | 9.1 | [Favoriet systeem](./opdracht-01-books) | `opdracht-01-books` ⚠️ | Conditionals |
-| 10 | [CodeCampus Dashboard (Eindopdracht)](./opdracht-10-codecampus) | `opdracht-10-codecampus` | Debugging, User Stories, Features |
-| 11 | [Old Town Barber App (Bonus)](./opdracht-11-old-town-barber-app) | `opdracht-11-old-town-barber-app` | localStorage, Forms |
+| 10 | [CodeCampus Dashboard](./opdracht-10-codecampus) | `opdracht-10-codecampus` | Debugging, User Stories, Features |
+| 11 | [Old Town Barber App](./opdracht-11-old-town-barber-app) | `opdracht-11-old-town-barber-app` | localStorage, Forms |
+| 12 | [Zaak Noir](./opdracht-12-zaak-noir) | `opdracht-12-zaak-noir` | useEffect, fetch, JSON |
 
 > ⚠️ = deze opdracht maak je in een **bestaande** folder, geen nieuwe Vite-app aanmaken!
 

@@ -1,0 +1,46 @@
+[
+  {
+    "id": "schilderij",
+    "titel": "Het gestolen schilderij",
+    "beschrijving": "Een waardevol schilderij is uit het Stadsmuseum verdwenen, ergens tussen sluitingstijd en de ronde van de nachtwacht.",
+    "dader": "handelaar",
+    "verzegeld": false,
+    "bewijsstukken": [
+      { "naam": "Lege lijst aan de muur", "detail": "Stof rondom de lijst ontbreekt — recent verwijderd, na sluitingstijd." },
+      { "naam": "Sigarettenas", "detail": "Zelfde merk als de curator rookt — maar zij zegt gestopt te zijn." },
+      { "naam": "Leren handschoen", "detail": "Te klein voor de bewaker, past precies bij de kunsthandelaar." },
+      { "naam": "Ticket garderobe", "detail": "Tijdstempel: 23:42 — een uur na sluiting van het museum." }
+    ],
+    "verdachten": [
+      { "id": "curator", "naam": "Mw. Verhoeven", "rol": "De curator", "alibi": "\"Ik was thuis.\" Geen getuigen. Rookt zogenaamd niet meer." },
+      { "id": "handelaar", "naam": "Hr. de Wit", "rol": "De handelaar", "alibi": "Was in de garderobe om 23:42 — bevestigd door het ticket." },
+      { "id": "bewaker", "naam": "Hr. Bakker", "rol": "De bewaker", "alibi": "Stond bij de hoofdingang, zag niemand. Handen te groot voor de handschoen." }
+    ]
+  },
+  {
+    "id": "testament",
+    "titel": "Het vervalste testament",
+    "beschrijving": "Na het overlijden van de oude notaris duikt een testament op dat zijn dochter onterft. De handtekening lijkt te kloppen — of toch niet?",
+    "dader": "secretaris",
+    "verzegeld": false,
+    "bewijsstukken": [
+      { "naam": "Inktvlek op papier", "detail": "De inkt is moderner dan de datum op het testament suggereert." },
+      { "naam": "Vulpen in la", "detail": "Recent gebruikt, ligt in de la van de secretaris." },
+      { "naam": "Brief aan de neef", "detail": "De neef wist al van het nieuwe testament voordat het officieel werd voorgelezen." }
+    ],
+    "verdachten": [
+      { "id": "dochter", "naam": "Mw. Janssen", "rol": "De dochter", "alibi": "Was de hele week in het buitenland — vluchtgegevens kloppen." },
+      { "id": "neef", "naam": "Hr. Kuiper", "rol": "De neef", "alibi": "Wist verdacht veel, maar heeft een sluitend alibi voor de avond." },
+      { "id": "secretaris", "naam": "Hr. Vermeer", "rol": "De secretaris", "alibi": "Zegt alleen documenten te hebben getypt. Vulpen wijst anders uit." }
+    ]
+  },
+  {
+    "id": "kroonjuwelen",
+    "titel": "De verdwenen kroonjuwelen",
+    "beschrijving": "Deze zaak is door de hoofdcommissaris persoonlijk verzegeld. Toegang voorlopig geweigerd.",
+    "dader": "",
+    "verzegeld": true,
+    "bewijsstukken": [],
+    "verdachten": []
+  }
+]
